@@ -1,3 +1,3 @@
 var client = require("./index.js");
 
-console.log(client.randomColors())
+console.log(client.randomNames())
