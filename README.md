@@ -1,13 +1,20 @@
+<div align="center">
+  <br>
+
 # randoizer
+
+The Node.js package to generate random stuff! (Yes, like numbers.)
 
 <a href="https://www.npmjs.com/package/randoizer"><img src="https://img.shields.io/npm/v/randoizer.svg?maxAge=3600" alt="NPM version" /></a>
 <a href="https://www.npmjs.com/package/randoizer"><img src="https://img.shields.io/npm/dt/randoizer.svg?maxAge=3600" alt="NPM downloads" /></a>
 
-# Install
+<br>
 
+<p>
 <a href="https://nodei.co/npm/randoizer/"><img src="https://nodei.co/npm/randoizer.png?downloads=true&stars=true" alt="npm installnfo" /></a>
+</p>
 
-The Node.js package to generate random stuff! (Yes, like numbers.)
+</div>
 
 # Documentation
 
