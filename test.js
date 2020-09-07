@@ -7,3 +7,5 @@ console.log(client.randomLetters(10))
 console.log(client.randomColors())
 
 console.log(client.randomNames())
+
+console.log(client.randomDays())
