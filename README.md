@@ -1,4 +1,7 @@
 # randoizer
+
+<a href="https://nodei.co/npm/randoizer/"><img src="https://nodei.co/npm/randoizer.png?downloads=true&stars=true" alt="npm installnfo" /></a>
+
 The Node.js package to generate random stuff! (Yes, like numbers.)
 
 # Documentation
