@@ -1,0 +1,25 @@
+{
+  "name": "randoizer",
+  "version": "1.0.6",
+  "description": "The Node.js package to generate random stuff! (Yes, like numbers.)",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/N/A.git"
+  },
+  "keywords": [
+    "random",
+    "numbers",
+    "generator"
+  ],
+  "author": "Milan Mehra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/N/A/issues"
+  },
+  "homepage": "https://github.com/N/A#readme"
+}
