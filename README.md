@@ -9,6 +9,7 @@ The Node.js package to generate random stuff! (Yes, like numbers.)
 <br>
 <p>
 <br>
+<a href="https://travis-ci.com/milanmdev/randoizer"><img src="https://travis-ci.com/milanmdev/randoizer.svg?branch=master" alt="Travis CI Build Status" /></a>
 <a href="https://www.npmjs.com/package/randoizer"><img src="https://img.shields.io/npm/v/randoizer.svg?maxAge=3600" alt="NPM version" /></a>
 <a href="https://www.npmjs.com/package/randoizer"><img src="https://img.shields.io/npm/dt/randoizer.svg?maxAge=3600" alt="NPM downloads" /></a>
 <a href="https://david-dm.org/milanmdev/randoizer"><img src="https://img.shields.io/david/milanmdev/randoizer.svg?maxAge=3600" alt="Dependencies" /></a>
