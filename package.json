@@ -11,6 +11,9 @@
     "type": "git",
     "url": "git+https://github.com/milanmdev/randoizer.git"
   },
+  "engines": {
+    "node": "12.x"
+  }
   "keywords": [
     "random",
     "numbers",
