@@ -19,3 +19,8 @@ console.log(client.randomNoGenerator(min, max))
 ```js
 console.log(client.randomLetters(length))
 ```
+
+### Getting random color hex codes:
+```js
+console.log(client.randomColors())
+```
