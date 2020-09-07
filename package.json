@@ -1,6 +1,6 @@
 {
   "name": "randoizer",
-  "version": "2.0.7",
+  "version": "2.0.8",
   "description": "The Node.js package to generate random stuff! (Yes, like numbers.)",
   "main": "index.js",
   "scripts": {
