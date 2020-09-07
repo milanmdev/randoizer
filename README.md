@@ -51,3 +51,8 @@ console.log(client.randomColors())
 ```js
 console.log(client.randomNames())
 ```
+
+### Getting random days:
+```js
+console.log(client.randomDays())
+```
