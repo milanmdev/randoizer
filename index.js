@@ -13,7 +13,9 @@ module.exports = {
   //Random Letter Generator
   randomLetters: function(length) {
     const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
-      let output = '';
+
+      var random;
+      var output = '';
     
       for (let i = 1; i <= length; i++) {
         output += letters.substring(random = Math.floor(Math.random() * letters.length), random + 1);
