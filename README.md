@@ -27,3 +27,8 @@ console.log(client.randomLetters(length))
 ```js
 console.log(client.randomColors())
 ```
+
+### Getting random names:
+```js
+console.log(client.randomNames())
+```
