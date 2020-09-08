@@ -11,3 +11,5 @@ console.log(client.randomNames())
 console.log(client.randomDays())
 
 console.log(client.randomEmails())
+
+console.log(client.randomWebsites())
