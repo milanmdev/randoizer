@@ -54,7 +54,7 @@ module.exports = {
       for(var ii=0; ii<15; ii++){
        string += chars[Math.floor(Math.random() * chars.length)];}
 	  
-    var final = string + `@${emailB}`;
+    var final = string + '@' + emailB;
 
     return final;
     },
