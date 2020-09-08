@@ -9,3 +9,5 @@ console.log(client.randomColors())
 console.log(client.randomNames())
 
 console.log(client.randomDays())
+
+console.log(client.randomEmails())
