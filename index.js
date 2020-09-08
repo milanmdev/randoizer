@@ -1,5 +1,3 @@
-const randomEm = require("random-email")
-
 module.exports = {
 
 
@@ -50,10 +48,15 @@ module.exports = {
     var tlds = ["gmail.com", "outlook.com", "live.com", "hotmail.com", "zoho.com", "aol.com", "mail.com", "fakerz.net", "fake4u.link"];
 
     var emailB = tlds[Math.floor(Math.random() * tlds.length)]
+    
+    var chars = 'abcdefghijklmnopqrstuvwxyz1234567890';
+    var string = '';
+      for(var ii=0; ii<15; ii++){
+       string += chars[Math.floor(Math.random() * chars.length)];}
+	  
+    var final = string + emailB;
 
-    var emailA = randomEm({domain: `${emailB}`})
-
-    return emailA;
+    return final;
     },
 
     //Random Name Generator
