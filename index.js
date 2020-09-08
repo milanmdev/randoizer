@@ -1,3 +1,5 @@
+const randomEm = require("random-email")
+
 module.exports = {
 
 
@@ -40,6 +42,18 @@ module.exports = {
     var dayD = days[Math.floor(Math.random() * days.length)]
 
     return dayD;
+    },
+
+  //Random Email Generator
+  randomEmails: function() {
+
+    var tlds = ["gmail.com", "outlook.com", "live.com", "hotmail.com", "zoho.com", "aol.com", "mail.com", "fakerz.net", "fake4u.link"];
+
+    var emailB = tlds[Math.floor(Math.random() * tlds.length)]
+
+    var emailA = randomEm({domain: `${emailB}`})
+
+    return emailA;
     },
 
     //Random Name Generator

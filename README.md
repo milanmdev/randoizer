@@ -56,3 +56,8 @@ console.log(client.randomNames())
 ```js
 console.log(client.randomDays())
 ```
+
+### Getting random emails:
+```js
+console.log(client.randomEmails())
+```
