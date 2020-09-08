@@ -1,6 +1,6 @@
 {
   "name": "randoizer",
-  "version": "2.0.9",
+  "version": "2.1.0",
   "description": "The Node.js package to generate random stuff! (Yes, like numbers.)",
   "main": "index.js",
   "scripts": {
@@ -24,8 +24,5 @@
   "bugs": {
     "url": "https://github.com/milanmdev/randoizer/issues"
   },
-  "homepage": "https://github.com/milanmdev/randoizer#readme",
-  "dependencies": {
-    "random-email": "^1.0.3"
-  }
+  "homepage": "https://github.com/milanmdev/randoizer#readme"
 }
