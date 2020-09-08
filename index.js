@@ -45,7 +45,7 @@ module.exports = {
   //Random Email Generator
   randomEmails: function() {
 
-    var tlds = ["gmail.com", "outlook.com", "live.com", "hotmail.com", "zoho.com", "aol.com", "mail.com", "fakerz.net", "fake4u.link"];
+    var tlds = ["gmail.com", "outlook.com", "live.com", "hotmail.com", "zoho.com", "aol.com", "mail.com", "fakerz.net", "fake4u.link", "hobby.net", "iamspecial.com", "hello.me"];
 
     var emailB = tlds[Math.floor(Math.random() * tlds.length)]
     
@@ -54,7 +54,7 @@ module.exports = {
       for(var ii=0; ii<15; ii++){
        string += chars[Math.floor(Math.random() * chars.length)];}
 	  
-    var final = string + emailB;
+    var final = string + `@${emailB}`;
 
     return final;
     },
