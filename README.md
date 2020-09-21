@@ -66,3 +66,8 @@ console.log(client.randomEmails())
 ```js
 console.log(client.randomWebsites())
 ```
+
+### Getting random whole numbers:
+```js
+console.log(client.randomWholeNumber(min, max))
+```
