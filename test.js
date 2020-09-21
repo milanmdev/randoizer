@@ -13,3 +13,5 @@ console.log(client.randomDays())
 console.log(client.randomEmails())
 
 console.log(client.randomWebsites())
+
+console.log(client.randomWholeNumber(1, 100))

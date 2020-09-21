@@ -59,10 +59,20 @@ module.exports = {
     return final;
     },
 
-  //Random Website Generator
+  //Random Whole Number Generator
+  randomWholeNumber: function(min, max) {
+
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    var endWholeNum = Math.floor(Math.random() * (max - min + 1)) + min;
+
+    return endWholeNum;
+    },
+
+   //Random Website Generator
   randomWebsites: function() {
 
-    var websitE = ["thesite.com", "fakerz.com", "hackersrus.io", "blip.io", "iamthebest.com", "fakeapple.com", "emailzzz.com"];
+    var websitE = ["thesite.com", "fakerz.com", "hackersrus.io", "blip.io", "iamthebest.com", "fakeapple.com", "emailzzz.com", "thebestsite.org"];
 
     var websitY = websitE[Math.floor(Math.random() * websitE.length)]
 
