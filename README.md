@@ -71,8 +71,3 @@ console.log(client.randomWebsites())
 ```js
 console.log(client.randomWholeNumber(min, max))
 ```
-
-### Getting random words:
-```js
-console.log(client.randomWordGenerator(ammount))
-```

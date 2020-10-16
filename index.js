@@ -1,5 +1,3 @@
-var randomWords = require('random-words');
-
 module.exports = {
 
 
@@ -11,12 +9,6 @@ module.exports = {
     }
    return (Math.random() * (max-min)) + min;
   },
-
-  //Random Word Generator
-    randomWordGenerator: function(ammount) {
-      var wordOutpute = randomWords({ exactly: ammount, join: ', ' });
-     return wordOutpute;
-    },
 
   //Random Letter Generator
   randomLetters: function(length) {
