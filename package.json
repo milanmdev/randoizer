@@ -4,7 +4,7 @@
   "description": "The Node.js package to generate random stuff! (Yes, like numbers.)",
   "main": "index.js",
   "scripts": {
-    "test": "npm i && node test.js",
+    "test": "node test.js",
     "start": "node index.js"
   },
   "dependencies": {
