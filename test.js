@@ -15,3 +15,5 @@ console.log(client.randomEmails())
 console.log(client.randomWebsites())
 
 console.log(client.randomWholeNumber(1, 100))
+
+console.log(client.randomWordGenerator(6))
